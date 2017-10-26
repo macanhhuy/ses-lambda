@@ -1,0 +1,19 @@
+{
+  "name": "ses-lambda",
+  "version": "1.0.0",
+  "description": "A Lambda function for sending email",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r ses-lambda.zip .env index.js node_modules/"
+  },
+  "author": "Huy Mac",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.135.0",
+    "dotenv": "1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macanhhuy/ses-lambda.git"
+  }
+}
